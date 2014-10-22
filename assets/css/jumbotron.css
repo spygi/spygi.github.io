@@ -1,7 +1,22 @@
-@import "main"
+h1 {
+  background: white; }
+
+/* Done importing colors in B */
+h2 {
+  color: red;
+  border: 2px solid yellow; }
+
+/* Done importing B in jumbotron */
+h1 {
+  background: white; }
+
+/* Done importing C in jumbotron */
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
+a {
+  color: red; }
+
+/*# sourceMappingURL=jumbotron.css.map */

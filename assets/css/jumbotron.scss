@@ -1,0 +1,15 @@
+@import "B";
+/* Done importing B in jumbotron */
+@import "C";
+/* Done importing C in jumbotron */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+// this is an unvisible comment
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;  
+}
+
+a {
+	color: $red;
+}
